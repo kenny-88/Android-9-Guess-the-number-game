@@ -1,4 +1,4 @@
-package com.example.MyApplication;
+package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         button9.setOnClickListener(bt9);
 
         Button button10 = (Button)findViewById(R.id.bt10);
-        button10.OnClickListener(bt10);
+        button10.setOnClickListener(bt10);
     }
     private View.OnClickListener bt1 = new View.OnClickListener() {
         @Override
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             TextView nb = (TextView)findViewById(R.id.tv2);
-            number.setText("4");
+            nb.setText("4");
         }
     };
     private View.OnClickListener bt5 = new View.OnClickListener() {
